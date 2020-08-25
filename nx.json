@@ -21,5 +21,19 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "shop-app": {
+      "tags": []
+    },
+    "shop-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["shop-app"]
+    },
+    "material": {
+      "tags": []
+    },
+    "ui": {
+      "tags": []
+    }
+  }
 }
